@@ -1,0 +1,46 @@
+.projects{
+    height: 300px;
+    width: 1330px;
+    background-color: black;
+    margin: 5px;
+    margin-top: 90px;
+    box-shadow: 5px 5px 10px black;
+}
+#pro{
+    width: 100%;
+    height: 350px;
+}
+
+
+#pro .projects {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #pro .projects h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:lightgoldenrodyellow;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  #pro .projects img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #pro .projects:hover img {
+    transform: scale(1.1); /* Zoom effect on image */
+  }
+  
+  #pro .projects:hover h3 {
+    opacity: 1; /* Show the text when hovering */
+  }
+  

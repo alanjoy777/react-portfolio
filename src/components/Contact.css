@@ -1,0 +1,42 @@
+/* Contact.css */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .contact-form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    margin-top: 1rem;
+  }
+  
+  .contact-form .form-group label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+  }
+  
+  .contact-form .btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: #0056b3;
+  }
+  

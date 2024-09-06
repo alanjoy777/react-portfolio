@@ -1,0 +1,39 @@
+/* Skills.css */
+.container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .skill-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skill-card i {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .skill-card h4 {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .skill-card:hover i {
+    color: #fff;
+  }
+  
+  .skill-card:hover h4 {
+    color: #fff;
+  }
+  
